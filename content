@@ -1,0 +1,68 @@
+50 hours
+
+python : 30h
+
+1. introduction
+
+2. standalone vs web vs distributed vs enterprise applications
+
+3. Installation
+
+4. Coding Introduction
+
+5. Naming Convention
+
+6. variables
+
+7. Data types
+
+8. operators
+
+9. input and output
+
+10. constrol statements
+
+Advanced:
+
+1. Functions
+
+2. Strings
+
+3. Lists
+
+4. tuple
+
+5. set
+
+6. Dictionary
+
+7. OOPS(class, object, inheritance, overloading, overriding, abstraction, encapslation)
+
+8. Modules
+
+9. packages
+
+10. Library
+
+11. Exception Handling
+
+12. File Management
+
+13. Multithreading
+
+14. DB connectivity(MySQL, Mongodb)
+
+15. logging modules
+
+
+flask  : 3
+django : 3
+Numpy  : 1
+pandas : 3
+
+Data Science : 10h
+
+    Data visualization:1
+	ML     : 6
+	DL     : 4
+	Maths  : 1
