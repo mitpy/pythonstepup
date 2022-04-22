@@ -10,4 +10,5 @@ def sum(*nos):
 
 sum(10,20)
 sum(1,2,3)
+sum(10)
 sum()
