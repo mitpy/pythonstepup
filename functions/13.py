@@ -15,6 +15,13 @@ def f1():
 
 f(f1)
 
+# f is HOF/purefucntion /decorator
+
+# f1  is a callback function
+
+
+
+
 
 
 
