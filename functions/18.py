@@ -1,6 +1,7 @@
+# Higher order, 
 def f(a,b):
-    a()
-    b('Dhoni')
+    a()#sachin
+    b('Dhoni')#Dhoni
     def f1():
         print('Kohli')
     return f1
