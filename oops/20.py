@@ -15,4 +15,4 @@ class A(B):
         print(self.n1+self.n2)
 
 obj=A()
-obj.sum()
+obj.sum() #obj.sum(obj)

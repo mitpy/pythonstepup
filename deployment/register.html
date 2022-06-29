@@ -1,0 +1,41 @@
+<h1>Registration Form</h1>
+<p> 
+    <b>Name:</b><input id="name" />
+</p>
+<p>
+    <b>Rno:</b><input id="rno" />
+</p>
+<p>
+    <b>Address:</b><input id="add" />
+</p>
+<p>
+    <button onclick="fnRegister()">Register</button>
+</p>
+
+<script>
+    function fnRegister(){
+        var name=document.getElementById('name').value;
+        var rno=document.getElementById('rno').value;
+        var add=document.getElementById('add').value;
+        var data={
+            "name":name,
+            "rno":rno,
+            "add":add
+        }
+
+        var obj=new XMLHttpRequest()
+        obj.open('POST','http://127.0.0.1:5000/reg-std')
+        obj.setRequestHeader('Content-Type','application/json')
+        obj.send(JSON.stringify(data));
+        obj.onload=function(){
+            alert(obj.responseText);
+            document.getElementById('name').value='';
+            document.getElementById('rno').value=''
+            document.getElementById('add').value=''
+        }
+        obj.onerror=function(){
+            alert('failure')
+        }
+        
+    }
+</script>

@@ -1,8 +1,8 @@
 # constructor execution
 class B:
+    n2=20
     def __init__(self):
         print('B class constructor(parent/super/base)')
-    n2=20
 
 class A(B):
     n1=10

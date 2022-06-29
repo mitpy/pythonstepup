@@ -1,0 +1,5 @@
+[
+    {"order_id": 16278939, "cust_name": null, "product": "ThinkPad Laptop", "quantity": 2}, 
+    {"order_id": 16278966, "cust_name": "Kedar", "product": "Flatscreen TV", "quantity": 1}, {"order_id": 16278993, "cust_name": "Jaya Chandra", "product": "Macbook Pro Laptop", "quantity": 2},
+     {"order_id": 16279020, "cust_name": "Mallikarjun", "product": "iPhone 11", "quantity": 3}, {"order_id": 16279047, "cust_name": "Shahid", "product": null, "quantity": 1}, 
+     {"order_id": 16279074, "cust_name": "Pradhan", "product": "Samsung m10", "quantity": null}]
