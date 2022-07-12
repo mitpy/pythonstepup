@@ -1,0 +1,11 @@
+12/07/22 07:21:29 : ERROR : invalid literal for int() with base 10: 'a'
+Traceback (most recent call last):
+  File "F:\myclasses\python0504\logging\6.py", line 11, in <module>
+    x=int(input('first no'))
+ValueError: invalid literal for int() with base 10: 'a'
+12/07/22 07:21:29 : INFO : execution completed
+12/07/22 07:21:37 : ERROR : division by zero
+Traceback (most recent call last):
+  File "F:\myclasses\python0504\logging\6.py", line 13, in <module>
+    print('The result is', x/y)
+ZeroDivisionError: division by zero

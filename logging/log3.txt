@@ -1,0 +1,4 @@
+WARNING:root:ss
+INFO:root:info
+ERROR:root:sss
+CRITICAL:root:333
